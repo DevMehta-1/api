@@ -4,4 +4,4 @@ const schema=mongoose.Schema({
     branch:String,
     sem:Number
 })
-module.exports=mongoose.model("Book",schema);
+module.exports=mongoose.model("Stud",schema);
