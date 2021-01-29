@@ -1,10 +1,10 @@
 const express=require('express');
-const Stud=require('./model/stud');
+const Student=require('./model/student');
 const router=express.Router();
 
 router.get("/students",async (req,res)=>{
-    const stud=await Stud.find();
-    res.send(stud);
+    const student=await Stud.find();
+    res.send(student);
 });
 module.exports=router;
 
